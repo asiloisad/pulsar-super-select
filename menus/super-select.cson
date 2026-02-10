@@ -1,0 +1,15 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Super Select'
+        submenu: [
+          { label: 'Chars 1', command: 'super-select:chars-1' }
+          { label: 'Chars 2', command: 'super-select:chars-2' }
+          { label: 'String', command: 'super-select:string' }
+        ]
+      }
+    ]
+  }
+]

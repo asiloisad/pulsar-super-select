@@ -1,6 +1,6 @@
 {
   "name": "super-select",
-  "description": "An additional methods of text selection & slash normalization",
+  "description": "Text selection helpers and slash normalization commands",
   "repository": "https://github.com/asiloisad/pulsar-super-select",
   "keywords": [
     "select",

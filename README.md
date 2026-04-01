@@ -4,10 +4,10 @@ Text selection helpers and slash normalization commands.
 
 ## Features
 
-- **String selection**: Select text inside quotes with `super-select:string` (`Alt+S`).
-- **Bracket selection**: Select text inside brackets with `super-select:brackets` (`Alt+D`).
+- **String selection**: Select text inside quotes.
+- **Bracket selection**: Select text inside brackets.
 - **Character patterns**: Select by custom character sets.
-- **Slash normalization**: Convert path separators to forward slash (`Alt+/`), backslash (`Alt+\`), or double backslash (`Ctrl+Alt+\`).
+- **Slash normalization**: Convert path separators to forward slash, backslash or double backslash.
 - **HTML selection**: Select HTML body or tags.
 
 ## Installation
@@ -20,21 +20,21 @@ Commands available in `atom-text-editor`:
 
 - `super-select:chars-1`: select text by chars `/[0-9\\p{L}_\\.]/`,
 - `super-select:chars-2`: select text by chars `/[0-9\\p{L}_\\.\\-\\[\\]\\(\\)#]/`,
-- `super-select:string`: (`Alt+S`) select text inside `'''`, `"""`, `'` or `"`,
+- `super-select:string`: <kbd>Alt+S</kbd> select text inside `'''`, `"""`, `'` or `"`,
 - `super-select:string-'-'`: select text inside`'''` or `'`,
 - `super-select:string-'''-'''`: select text inside `'''`,
 - `super-select:string-\`-\``: select text inside backticks,
 - `super-select:string-"-"`: select text inside `"""` or `"`,
 - `super-select:string-"""-"""`: select text inside `"""`,
-- `super-select:brackets`: (`Alt+D`) select text inside `()`, `[]`, `{}` or `<>`,
+- `super-select:brackets`: <kbd>Alt+D</kbd> select text inside `()`, `[]`, `{}` or `<>`,
 - `super-select:brackets-(-)`: select text inside `()`,
 - `super-select:brackets-[-]`: select text inside `[]`,
 - `super-select:brackets-{-}`: select text inside `{}`,
 - `super-select:brackets-<->`: select text inside `<>`,
 - `super-select:normalize`: convert slashes to match the most left slash inside selection,
-- `super-select:double-backslash`: (`Ctrl+Alt+\`) convert slashes to `\\` inside selection,
-- `super-select:backslash`: (`Alt+\`) convert slashes to `\` inside selection,
-- `super-select:forward-slash`: (`Alt+/`) convert slashes to `/` inside selection,
+- `super-select:double-backslash`: <kbd>Ctrl+Alt+\</kbd> convert slashes to `\\` inside selection,
+- `super-select:backslash`: <kbd>Alt+\</kbd> convert slashes to `\` inside selection,
+- `super-select:forward-slash`: <kbd>Alt+/</kbd> convert slashes to `/` inside selection,
 - `super-select:html-body`: select html body,
 - `super-select:html-tags`: select html tags.
 

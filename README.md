@@ -32,8 +32,8 @@ Commands available in `atom-text-editor`:
 - `super-select:brackets-{-}`: select text inside `{}`,
 - `super-select:brackets-<->`: select text inside `<>`,
 - `super-select:normalize`: convert slashes to match the most left slash inside selection,
-- `super-select:double-backslash`: <kbd>Ctrl+Alt+\</kbd> convert slashes to `\\` inside selection,
-- `super-select:backslash`: <kbd>Alt+\</kbd> convert slashes to `\` inside selection,
+- `super-select:double-backslash`: <kbd>Ctrl+Alt+\\</kbd> convert slashes to `\\` inside selection,
+- `super-select:backslash`: <kbd>Alt+\\</kbd> convert slashes to `\` inside selection,
 - `super-select:forward-slash`: <kbd>Alt+/</kbd> convert slashes to `/` inside selection,
 - `super-select:html-body`: select html body,
 - `super-select:html-tags`: select html tags.
